@@ -12,12 +12,9 @@
         "tags": [
             "openid-connect"
         ],
-        "noDirectLaunch": [
-            "do.re.mi"
-        ],
+        "noDirectLaunch": [],
         "configs": {
-            "co.basic": {},
-            "do.re.mi": {}
+            "co.basic": {}
         }
     }
 }
