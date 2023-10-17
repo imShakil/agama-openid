@@ -14,8 +14,7 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "co.basic": {},
-            "tester.me": {}
+            "co.basic": {}
         }
     }
 }
