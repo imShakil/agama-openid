@@ -19,7 +19,8 @@
         "configs": {
             "co.basic": {},
             "io.jans.inbound.oauth2.AuthzCode": {},
-            "io.jans.inbound.oauth2.AuthzCodeWithUserInfo": {}
+            "io.jans.inbound.oauth2.AuthzCodeWithUserInfo": {},
+            "io.jans.inbound.oidc_code": {}
         }
     }
 }
