@@ -65,9 +65,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 680,
@@ -136,7 +137,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -207,7 +209,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "uid"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -277,7 +280,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -327,7 +331,8 @@
 				"handles": [
 					"Agama-when-Node-5116b663-2b53-471f-b693-faecfd9dd2a7.FAILURE",
 					"Agama-when-Node-5116b663-2b53-471f-b693-faecfd9dd2a7.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -399,7 +404,8 @@
 					"nodeIcon": "fluent-mdl2:trigger-approval",
 					"flowFileName": "io.jans.inbound.oauth2.AuthzCodeWithUserInfo",
 					"asssignedVariableName": "obj"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -471,7 +477,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -586,8 +592,8 @@
 		}
 	],
 	"viewport": {
-		"x": 72.21578874757904,
-		"y": 77.32518832062897,
-		"zoom": 0.7536674547791904
+		"x": 45.93216833456327,
+		"y": 33.27210876087361,
+		"zoom": 0.8681402276010428
 	}
 }
