@@ -12,9 +12,12 @@
         "tags": [
             "openid-connect"
         ],
-        "noDirectLaunch": [],
+        "noDirectLaunch": [
+            "io.jans.inbound.oauth2.AuthzCode"
+        ],
         "configs": {
-            "co.basic": {}
+            "co.basic": {},
+            "io.jans.inbound.oauth2.AuthzCode": {}
         }
     }
 }
