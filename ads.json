@@ -4,7 +4,7 @@
         "description": "Authentication using an external OpenID Connect provider with the 'code' flow",
         "type": "community",
         "author": "GluuFederation",
-        "version": "0.0.1",
+        "version": "1.0.0",
         "authorWebsite": "https://github.com/GluuFederation/agama-openid",
         "githubUri": "https://github.com/GluuFederation/agama-openid",
         "license": "MIT",
