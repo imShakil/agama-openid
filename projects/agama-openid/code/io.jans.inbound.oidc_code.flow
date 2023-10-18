@@ -1,3 +1,4 @@
+// OpenId-based inbound identity flow
 Flow GluuFederation.io.jans.inbound.openid
      Basepath ""
      Configs conf
