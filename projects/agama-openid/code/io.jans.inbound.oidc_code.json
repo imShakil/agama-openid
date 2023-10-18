@@ -469,7 +469,10 @@
 					"exceptionVariableField": "",
 					"flowname": "GluuFederation.io.jans.inbound.openid",
 					"nodeIcon": "material-symbols:line-start-square",
-					"configs": "conf"
+					"configs": "conf",
+					"isTopLevelFlow": true,
+					"hasComment": true,
+					"configParams": "{\n    \"oidc\":{\n        \"authzEndpoint\":\"https://accounts.google.com/o/oauth2/v2/auth\",\n        \"tokenEndpoint\":\"https://oauth2.googleapis.com/token\",\n        \"userInfoEndpoint\":\"https://openidconnect.googleapis.com/v1/userinfo\",\n        \"clientId\":\"CLIENT IDENTIFIER\",\n        \"clientSecret\":\"SECRET\",\n        \"scopes\":[\"openid\"],\n        \"clientCredsInRequestBody\":true,\n        \"custParamsAuthReq\":{},\n        \"custParamsTokenReq\":{}\n    },\n    \"uidPrefix\":\"google-\"\n}\n"
 				},
 				"skake": false
 			},
@@ -592,8 +595,8 @@
 		}
 	],
 	"viewport": {
-		"x": 45.93216833456327,
-		"y": 33.27210876087361,
-		"zoom": 0.8681402276010428
+		"x": 22,
+		"y": 71,
+		"zoom": 1
 	}
 }
