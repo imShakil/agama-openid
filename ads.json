@@ -17,25 +17,7 @@
             "io.jans.inbound.oauth2.AuthzCodeWithUserInfo"
         ],
         "configs": {
-            "co.basic": {},
-            "io.jans.inbound.oauth2.AuthzCode": {},
-            "io.jans.inbound.oauth2.AuthzCodeWithUserInfo": {},
-            "io.jans.inbound.oidc_code": {
-                "oidc": {
-                    "authzEndpoint": "https://accounts.google.com/o/oauth2/v2/auth",
-                    "tokenEndpoint": "https://oauth2.googleapis.com/token",
-                    "userInfoEndpoint": "https://openidconnect.googleapis.com/v1/userinfo",
-                    "clientId": "CLIENT IDENTIFIER",
-                    "clientSecret": "SECRET",
-                    "scopes": [
-                        "openid"
-                    ],
-                    "clientCredsInRequestBody": true,
-                    "custParamsAuthReq": {},
-                    "custParamsTokenReq": {}
-                },
-                "uidPrefix": "google-"
-            }
+            "GluuFederation.io.jans.inbound.openid": {}
         }
     }
 }
