@@ -1,6 +1,8 @@
 Flow org.gluu.inbound.oauth2.AuthzCode
      Basepath ""
      Inputs oauthParams
+// show received parameters
+Log "@debug agama-openid: received paramters " oauthParams
 When oauthParams.redirectUri is null
      // Obtain redirect uri based on hostname from HTTP url
      oauthParams.redirectUri = Call org.gluu.util.NetworkUtils#makeRedirectUri 
